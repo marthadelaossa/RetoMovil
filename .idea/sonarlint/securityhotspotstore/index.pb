@@ -1,0 +1,21 @@
+
+p
+@src/test/java/exito/app/runners/RegistrarNuevoUsuarioRunner.java,9\e\9e91277124a6ba93f87b20eabd46820df017b355
+h
+8src/main/java/exito/app/drivers/AppiumAndroidDriver.java,1\c\1c3e23648376934d69473537b59ca2a101045819
+ƒ
+Ssrc/test/java/exito/app/stepsDefinitions/RegistrarNuevoUsuarioStepsDefinitions.java,1\5\15ce938c0ccb5a956f79cf992faf56ff40b7d51f
+O
+target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
+r
+Bsrc/test/java/exito/app/runners/AgregarProductosCarritoRunner.java,c\3\c3910a7be34be4a0628da4fa6b53add6cd50c4b6
+f
+6src/main/java/exito/app/tasks/CerrarSesionUsuario.java,6\3\63104dbe51a6795f9c16b7c08d3fafb8b76b36b0
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+…
+Usrc/test/java/exito/app/stepsDefinitions/AgregarProductosCarritoStepsDefinitions.java,7\5\75c249faef5cd7241e7613bd9f80840a4d5eb867
+h
+8src/main/java/exito/app/tasks/CarritoComprasUsuario.java,8\3\83ff22137378286c03531950f6e4fc76e9178dd4
+f
+6src/main/java/exito/app/tasks/InicioSesionUsuario.java,5\0\50ce2db98e7b1993abb867090e4d0f7d7d33f5b8
