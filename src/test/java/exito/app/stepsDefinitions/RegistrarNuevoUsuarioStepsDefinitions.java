@@ -8,6 +8,7 @@ import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
 import exito.app.drivers.AppiumAndroidDriver;
 import exito.app.tasks.RegistroUsuario;
+import exito.app.tasks.ValidacionRegistroUsuario;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
@@ -32,7 +33,7 @@ public class RegistrarNuevoUsuarioStepsDefinitions {
 
     @Entonces("^el usuario confirma su registro exitoso$")
     public void elUsuarioConfirmaSuRegistroExitoso() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ValidacionRegistroUsuario.validar());
     }
 
 }

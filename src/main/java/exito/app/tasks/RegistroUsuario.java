@@ -23,12 +23,10 @@ public class RegistroUsuario implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-
          actor.attemptsTo(
                 WaitUntil.the(RegistroPageUI.BTN_REGISTRARSE, isClickable()).forNoMoreThan(30).seconds(),
                 Click.on(RegistroPageUI.BTN_REGISTRARSE)
         );
-
         actor.attemptsTo(
                 WaitUntil.the(RegistroPageUI.INPUT_NOMBRE, isEnabled()).forNoMoreThan(40).seconds(),
                 Enter.theValue(datos.getNombre()).into(RegistroPageUI.INPUT_NOMBRE),
@@ -44,16 +42,13 @@ public class RegistroUsuario implements Task {
                 Click.on(RegistroPageUI.SLT_DIA)
         );
         actor.attemptsTo(
-                Enter.theValue("3002568954").into(RegistroPageUI.INPUT_CELULAR),
+                Enter.theValue("3005669877").into(RegistroPageUI.INPUT_CELULAR),
                 Enter.theValue(datos.getCorreo()).into(RegistroPageUI.INPUT_CORREO)
-
         );
         check.tap(PointOption.point(88, 1607)).perform();
         check.tap(PointOption.point(88, 1739)).perform();
         actor.attemptsTo(
-                Click.on(RegistroPageUI.BTN_CONFIRMAR),
-                WaitUntil.the(RegistroPageUI.LBL_CONFIRMAR, isVisible()).forNoMoreThan(30).seconds()
-
+                Click.on(RegistroPageUI.BTN_CONFIRMAR)
                 );
     }
 
