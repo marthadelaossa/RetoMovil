@@ -1,4 +1,4 @@
-# RetoMovil
+# Automatizacion Movil
 
 ## Descripcion
 El robot deberá ingresar a la app móvil Éxito
